@@ -1,0 +1,32 @@
+.ani-text {
+    padding: 50px;
+    /* transform: rotate(30deg); */
+    /* transform: translateX(100px); */
+    /* transform: translateY(100px); */
+    /* transform: scale(1.5); */
+    text-align: center;
+    
+}
+
+.ani-text:hover {
+    animation-name: comearound;
+    animation-duration: 1s;
+}
+/* 애니메이션 정의 */
+@keyframes comearound {
+    0% {
+        transform: translateX(0px);
+    }
+    25% {
+        transform: translateX(-100px);
+    }
+    50% {
+        transform: translateX(100px);
+    }
+    75% {
+        transform: translateX(100px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
